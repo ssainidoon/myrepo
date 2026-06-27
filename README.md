@@ -26,8 +26,9 @@ familiar environment.
 (13) git remote --verbose - Provides detailed information about the remote repositories, including their fetch and push URLs.
 (14) git remote show origin - Displays detailed information about the specified remote repository, including its 
      branches and tracking information.
-(13) git diff - Shows the differences between the working directory and the staging area or between commits, allowing 
+(15) git diff - Shows the differences between the working directory and the staging area or between commits, allowing 
     you to see what changes have been made.
-(13) git fetch - Retrieves updates from a remote repository without merging them into the current branch.
-(14) git reset <file> - Unstages a file, removing it from the staging area while keeping the changes in the working directory.
-(15) git rm <file> - Removes a file from the working directory and stages its deletion for the next commit.
+(16) git fetch - Retrieves updates from a remote repository without merging them into the current branch.
+(17) git reset <file> - Unstages a file, removing it from the staging area while keeping the changes in the working directory.
+(18) git rm <file> - Removes a file from the working directory and stages its deletion for the next commit.
+(19)
