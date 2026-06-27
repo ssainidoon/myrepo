@@ -24,11 +24,13 @@ familiar environment.
 (11) git push - Uploads local commits to a remote repository, updating it with your changes.
 (12) git remote -v - Displays the remote repositories associated with the local repository, showing their URLs.
 (13) git remote --verbose - Provides detailed information about the remote repositories, including their fetch and push URLs.
-(14) git remote show origin - Displays detailed information about the specified remote repository, including its 
+(14) git branch -vv --> prints info about the current branch
+(15) git status --> shows the status of the current branch
+(16) git remote show origin - shows the remote branches and their status; Displays detailed information about the specified remote repository, including its 
      branches and tracking information.
-(15) git diff - Shows the differences between the working directory and the staging area or between commits, allowing 
+(17) git diff - Shows the differences between the working directory and the staging area or between commits, allowing 
     you to see what changes have been made.
-(16) git fetch - Retrieves updates from a remote repository without merging them into the current branch.
-(17) git reset <file> - Unstages a file, removing it from the staging area while keeping the changes in the working directory.
-(18) git rm <file> - Removes a file from the working directory and stages its deletion for the next commit.
-(19)
+(18) git fetch - Retrieves updates from a remote repository without merging them into the current branch.
+(19) git reset <file> - Unstages a file, removing it from the staging area while keeping the changes in the working directory.
+(20) git rm <file> - Removes a file from the working directory and stages its deletion for the next commit.
+(21) pwd --> to check the current working directory
