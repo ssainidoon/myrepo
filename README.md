@@ -1,14 +1,18 @@
-# myrepo
+# keyboard shortcuts
+(1) Shift + enter - to come out of comments
+(2) control + enter - to run
+(3) shift + control + c - for starting comments
+(4) shift + control + R - for inserting section
 
-Repository for testing my Git/GitHub setup This is a line from RStudio on 22JUN2026. 
-Added a line from GitHub to check how it updates file in R Studio. 
+# packages
+I have noticed that installing 'usethis' package installed the following packages automatically,
+but when loaded using library function, it loaded only 'usethis' package and not the other packages.
+So, I have loaded those packages separately. For e.g., 'gitcreds' package for the time being.
+The installed packages are usethis, gitcreds, gert, credentials, httr2, ini, desc, gh, rprojroot and whisker.
 
-Synonyms - PowerShell, Terminal, Command Line.
-These interface that comes with Git for Windows. These allow you to run Git commands
-and perform version control tasks in a command-line environment.
-Git Bash - The PowerShell of Git is known as Git Bash. It provides a Unix-like command-line 
-interface for Git on Windows, allowing users to execute Git commands and scripts in a 
-familiar environment.
+library(gitcreds) # for git credentials
+gitcreds::gitcreds_set() # to set git credentials
+gitcreds_get() # to check git credentials
 
 # git commands
 (1) git init - Initializes a new Git repository in the current directory.
@@ -34,3 +38,11 @@ familiar environment.
 (19) git reset <file> - Unstages a file, removing it from the staging area while keeping the changes in the working directory.
 (20) git rm <file> - Removes a file from the working directory and stages its deletion for the next commit.
 (21) pwd --> to check the current working directory
+
+# General knowledge
+Synonyms - PowerShell, Terminal, Command Line.
+These interface that comes with Git for Windows. These allow you to run Git commands
+and perform version control tasks in a command-line environment.
+Git Bash - The PowerShell of Git is known as Git Bash. It provides a Unix-like command-line 
+interface for Git on Windows, allowing users to execute Git commands and scripts in a 
+familiar environment.
