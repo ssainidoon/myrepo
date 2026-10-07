@@ -1,8 +1,8 @@
 # Keyboard Shortcuts
-1. Shift + enter - to come out of comments
-2. control + enter - to run
-3. shift + control + c - for starting comments
-4. shift + control + R - for inserting section
+- Shift + enter - to come out of comments
+- control + enter - to run
+- shift + control + c - for starting comments
+- shift + control + R - for inserting section
 
 # Packages
 I have noticed that installing 'usethis' package installed the following packages automatically,
@@ -15,11 +15,11 @@ gitcreds::gitcreds_set() # to set git credentials
 gitcreds_get() # to check git credentials
 
 # Git Commands
-(1) git init - Initializes a new Git repository in the current directory.
-(2) git clone <repository_url> - Clones an existing Git repository from a remote server to your local machine.
-(3) git add <file> - Stages changes to be committed. You can specify individual files or use '.' to stage all changes.
-(4) git commit -m "commit message" - Commits the staged changes with a descriptive message.
-(5) git status - Displays the current status of the working directory and staging area, showing which files are modified, staged, or untracked.
+1. git init - Initializes a new Git repository in the current directory.
+2.  git clone <repository_url> - Clones an existing Git repository from a remote server to your local machine.
+3. git add <file> - Stages changes to be committed. You can specify individual files or use '.' to stage all changes.
+4. git commit -m "commit message" - Commits the staged changes with a descriptive message.
+5. git status - Displays the current status of the working directory and staging area, showing which files are modified, staged, or untracked.
 (6) git log - Shows the commit history for the repository, including commit hashes, authors, dates, and messages.
 (7) git branch - Lists all branches in the repository and indicates the current branch.
 (8) git checkout <branch_name> - Switches to the specified branch in the repository.
