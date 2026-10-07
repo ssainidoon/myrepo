@@ -40,9 +40,13 @@ gitcreds_get() # to check git credentials
 (21) pwd --> to check the current working directory
 
 # General knowledge
-Synonyms - PowerShell, Terminal, Command Line.
+PowerShell, Terminal and Command Line are synonyms.
 These interface that comes with Git for Windows. These allow you to run Git commands
 and perform version control tasks in a command-line environment.
 Git Bash - The PowerShell of Git is known as Git Bash. It provides a Unix-like command-line 
 interface for Git on Windows, allowing users to execute Git commands and scripts in a 
 familiar environment.
+
+# Processes
+**1. Pull** - Pull is used to bring the data from the repository in the GitHub to RStudio or a folder in the laptop. Lets say you are working in a branch but new data (e.g. a folder) is added to the main branch in the repository in the GitHub and you want to bring that data to RStudio, then first make sure that 'main' branch is selected in the "Git" window (which is between Connections and Tutorial window). Then use 'Pull' button, which is in kind of greenish-blue colour to bring the changes down to the laptop.
+**2. 
